@@ -10,7 +10,7 @@ This is an [Archetect](https://archetect.github.io/) archetype for generating
 To generate content from this Archetype, copy and execute the following command:
 
 ```sh
-  archetect render git@github.com:archetect-common/dot-gitignore.archetype.git
+archetect render git@github.com:archetect-common/dot-gitignore.archetype.git
 ```
 
 ## Usage
