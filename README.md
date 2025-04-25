@@ -32,7 +32,7 @@ requires:
   archetect: 2.0.0
 
 components:
-  gitignore: https://github.com/archetect-common/dot-gitignore.archetype.git#v1
+  gitignore: git@github.com:archetect-common/dot-gitignore.archetype.git#v1
 ```
 
 Then, you can use this component to render a `.gitignore` file, specifying what `ingores` should be included:
