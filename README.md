@@ -10,7 +10,7 @@ This is an [Archetect](https://archetect.github.io/) archetype for generating
 To generate content from this Archetype, copy and execute the following command:
 
 ```sh
-archetect render git@github.com:archetect-common/dot-gitignore.archetype.git
+archetect render git@github.com:archetect-common/dot-gitignore.archetype.git#v1
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ requires:
   archetect: 2.0.0
 
 components:
-  gitignore: https://github.com/archetect-common/dot-gitignore.archetype.git
+  gitignore: https://github.com/archetect-common/dot-gitignore.archetype.git#v1
 ```
 
 Then, you can use this component to render a `.gitignore` file, specifying what `ingores` should be included:
