@@ -2,6 +2,7 @@ let context = #{};
 
 context.ignores = prompt("Ignore Categories:", #{
   type: MultiSelect([
+    "Claude",
     "Rust",
     "RustBinary",
     "RustLibrary",

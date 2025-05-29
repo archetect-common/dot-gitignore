@@ -46,3 +46,9 @@ Cargo.lock{% endif %}
 .settings/
 
 {% endif %}
+
+{%- if "Claude" in ignores
+-%}
+### Claude
+.claude/
+{% endif %}

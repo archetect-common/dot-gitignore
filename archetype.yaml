@@ -6,5 +6,4 @@ frameworks: ["git"]
 tags: []
 
 requires:
-  archetect: "2.0.0-ALPHA.3"
-
+  archetect: "2.0.0"
